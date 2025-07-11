@@ -1,0 +1,148 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    border: none;
+}
+nav {
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    margin:40px 90px ;
+
+}
+.nav-title {
+    font-weight: bold;
+    font-size: 45px;
+}
+.text-primary {
+    color:#4E47FF;
+}
+nav ul li {
+    list-style: none;
+}
+.btn-primary {
+    background-color: #4E47FF;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+.banner-title {
+    text-align: center;
+    font: bold;
+}
+.header {
+    background-image: url('../Assets/Hero-bg.png');
+}
+.baby {
+    display:flex;
+    justify-content: space-between;
+    margin:o 35px 0 230px ;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.baby-content {
+    max-width: 580px;
+}
+.banner-profile-pic{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
+. image {
+    max-width:580px ;
+    display: flex;
+}
+.image-contace {
+    display:flex;
+    justify-content: space-between;
+    margin: 0 150px 0 150px;
+}
+
+.section-title {
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    padding-top: 100px;
+}
+.secondary-bg {
+    background-color:#FFEBEB;
+}
+.about {
+    border-radius: 24px;
+    text-align: center;
+    padding: 130px 150px;
+    margin-top: 130px;
+}
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 306;
+}
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+.item-title {
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+}
+.item-description {
+    font-size: 20px;
+}
+.text-center {
+    text-align: center;
+}
+.users-container {
+    display: flex;
+    gap: 24px;
+}
+.user-description {
+    padding: 30px;
+}
+  
+.khan {
+    text-align: center;
+}
+.khan-description {
+    text-align: center;
+}
+.image-profile{
+    width: 840px;
+    height: 364.77px;
+    border-radius: 48px;
+}
+.footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 50px;
+    
+}
+.footer-column {
+    width: 50%;
+}
+footer input [type="text"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+}
+
+.every {
+    text-align: center;
+
+}
+.every-items {
+    display: flex;
+    justify-content: space-around;
+}
+.every-title{
+    color: #4E47FF;
+    
